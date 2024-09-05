@@ -122,9 +122,11 @@ Looking at the second lineplot, we can conclude that sales remain constant for a
 The first version of the models gave this results:
 
 **Test:**
+
 ![first_test_metrics](img/first_models_test_results.png)
 
 **Cross-validation:**
+
 ![first_cv_metrics](img/first_models_cv_results.png)
 
 So, the chosen one was XGBoost. Then I tried to tune its parameters, getting some models as a proposal:
